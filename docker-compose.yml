@@ -18,8 +18,8 @@ services:
     build:
       context: .
       dockerfile: backend/docker/docker_files/Dockerfile_app
-    platform: linux/amd64
+    platform: linux/x86_64
     restart: unless-stopped
     ports:
-      - 5000:5000
+      - 6000:5000
 
